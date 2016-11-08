@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://gs.hn0g.com" versionCode="0.6">
+	<application setting="true">
+		<name><![CDATA[美丽微砍价]]></name>
+		<identifie><![CDATA[mon_xkwkj]]></identifie>
+		<version><![CDATA[2.1.3]]></version>
+		<type><![CDATA[other]]></type>
+		<ability><![CDATA[美丽微砍价，砍砍！！！！！！]]></ability>
+		<description><![CDATA[美丽微砍价，砍砍！！！！！！]]></description>
+		<author><![CDATA[tt]]></author>
+		<url><![CDATA[tt]]></url>
+
+	</application>
+	<platform>
+		<subscribes>
+		</subscribes>
+		<handles>
+			<message type="text" />
+		</handles>
+		<rule embed="true" />
+	</platform>
+	<bindings>
+		<cover>
+			<entry title="封面配置" do="homeIndex" state="" direct="false" />
+		</cover>
+		<menu>
+			<entry title="砍价活动管理" do="xkkjManage" state="" direct="false" />
+			<entry title="参数配置" do="xkkjSetting" state="" direct="false" />
+			<entry title="砍价首页配置" do="indexSetting" state="" direct="false" />
+		</menu>
+	</bindings>
+	<install><![CDATA[install.php]]></install>
+	<uninstall><![CDATA[uninstall.php]]></uninstall>
+	<upgrade><![CDATA[upgrade.php]]></upgrade>
+</manifest>
