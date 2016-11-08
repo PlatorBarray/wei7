@@ -9,7 +9,7 @@ define('IA_ROOT', str_replace("\\", '/', dirname(dirname(__FILE__))));
 define('MAGIC_QUOTES_GPC', (function_exists('get_magic_quotes_gpc') && get_magic_quotes_gpc()) || @ini_get('magic_quotes_sybase'));
 define('TIMESTAMP', time());
 
-$_W = $_GPC = array();
+$_W = $_GPC= array();
 $configfile = IA_ROOT . "/data/config.php";
 
 if(!file_exists($configfile)) {
